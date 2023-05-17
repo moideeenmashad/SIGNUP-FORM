@@ -1,8 +1,26 @@
-*{
-    padding: 0;
-    margin: 0;
+body{
+    background:linear-gradient(135deg, #fbfbfc 0%,#f6f7f9 100%);
+}
+.container-fluid {
+    background:linear-gradient(135deg, #7117ea 0%,#ea6060 100%);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+.card {
+    border-radius: 0.5rem;
+    left: 50%;
 }
 
-body{
-    background:linear-gradient(135deg, #7117ea 0%,#ea6060 100%);
+.btn{
+    width: 100%;
+}
+
+
+@media (max-width:768px){
+    .card{
+        left: 0%;
+    }
+}
+
+.container-form{
+    margin: auto;
 }
