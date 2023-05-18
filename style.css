@@ -11,7 +11,7 @@ body {
 }
 
 .btn {
-  width: 20%;
+  width: fit-content;
 }
 
 @media (max-width: 768px) {
